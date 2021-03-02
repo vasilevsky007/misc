@@ -1,0 +1,324 @@
+Info 0.0011921: TM:PE enabled. Version 11.3.2, Build 11.3.2.32644 STABLE for game version 1.13.0-f8
+Info 0.0078163: Enabled TM:PE has GUID ede6b0c4-4cd1-4bef-af91-d4efacc7fb51
+Info 0.0111114: Mono version: 2.0 (Visual Studio built mono)
+Info 6.4248755: Loading translations: TrafficManager.Resources.Translations.Menu.csv
+Info 6.4265014: Loading translations: TrafficManager.Resources.Translations.Options.csv
+Info 6.4287022: Loading translations: TrafficManager.Resources.Translations.JunctionRestrictions.csv
+Info 6.4288882: Loading translations: TrafficManager.Resources.Translations.LaneRouting.csv
+Info 6.4291813: Loading translations: TrafficManager.Resources.Translations.ModConflicts.csv
+Info 6.4294335: Loading translations: TrafficManager.Resources.Translations.ParkingRestrictions.csv
+Info 6.4298488: Loading translations: TrafficManager.Resources.Translations.PrioritySigns.csv
+Info 6.4300196: Loading translations: TrafficManager.Resources.Translations.SpeedLimits.csv
+Info 6.4304117: Loading translations: TrafficManager.Resources.Translations.TrafficLights.csv
+Info 6.4314474: Loading translations: TrafficManager.Resources.Translations.VehicleRestrictions.csv
+Info 6.4316981: Loading translations: TrafficManager.Resources.Translations.Tutorials.csv
+Info 6.4342374: Loading translations: TrafficManager.Resources.Translations.Guide.csv
+Info 6.4346234: Loading translations: TrafficManager.Resources.Translations.AI_Citizen.csv
+Info 6.4348509: Loading translations: TrafficManager.Resources.Translations.AI_Car.csv
+Info 6.4357755: Loading global config from file 'TMPE_GlobalConfig.xml'...
+Info 6.4383460: Global config loaded.
+Info 6.4414016: Writing global config to file 'TMPE_GlobalConfig.xml'...
+Info 9.3053414: TrafficManager.Resources.incompatible_mods.txt contains 52 entries
+Info 9.3063922: TM:PE Incompatible Mod Checker (True,True):
+
+
+Info 9.3065300: Scan complete: 0 incompatible mod(s) found
+Info 173.5216141: Loading Traffic Manager: PE Data
+Info 173.5218306: Initializing flags
+Info 173.5258915: OnBeforeLoadData: ExtNodeManager
+Info 173.5261463: OnBeforeLoadData: ExtSegmentManager
+Info 173.6480113: OnBeforeLoadData: ExtSegmentEndManager
+Info 173.6483062: OnBeforeLoadData: GeometryManager
+Info 173.6491502: OnBeforeLoadData: AdvancedParkingManager
+Info 173.6493175: OnBeforeLoadData: CustomSegmentLightsManager
+Info 173.6494555: OnBeforeLoadData: ExtBuildingManager
+Info 173.6495894: OnBeforeLoadData: ExtCitizenInstanceManager
+Info 173.6497293: OnBeforeLoadData: ExtCitizenManager
+Info 173.6498656: OnBeforeLoadData: ExtPathManager
+Info 173.6500025: OnBeforeLoadData: TurnOnRedManager
+Info 173.6751107: OnBeforeLoadData: LaneArrowManager
+Info 173.6753429: OnBeforeLoadData: LaneConnectionManager
+Info 173.6754812: OnBeforeLoadData: OptionsManager
+Info 173.6756179: OnBeforeLoadData: ParkingRestrictionsManager
+Info 173.6779961: OnBeforeLoadData: RoutingManager
+Info 173.6781888: OnBeforeLoadData: SpeedLimitManager
+Info 173.6799790: SpeedLimitManager.OnBeforeLoadData: 331 NetInfos loaded. Verifying...
+SpeedLimitManager.OnBeforeLoadData: Scan complete.
+
+Info 173.6873178: OnBeforeLoadData: TrafficLightManager
+Info 173.6875184: OnBeforeLoadData: TrafficLightSimulationManager
+Info 173.6876613: OnBeforeLoadData: TrafficMeasurementManager
+Info 173.6877960: OnBeforeLoadData: TrafficPriorityManager
+Info 173.6879427: OnBeforeLoadData: UtilityManager
+Info 173.6880773: OnBeforeLoadData: VehicleRestrictionsManager
+Info 173.6883137: OnBeforeLoadData: ExtVehicleManager
+Info 173.6884509: OnBeforeLoadData: JunctionRestrictionsManager
+Info 173.6885995: Initialization done. Loading mod data now.
+Info 173.6889590: No data to deserialize!
+Info 173.6893573: Loading State from Config
+Warning 173.6895152: Configuration NULL, Couldn't load save data. Possibly a new game?
+   at CSUtil.Commons.Log.LogToFile(System.String log, LogLevel level)
+   at CSUtil.Commons.Log.Warning(System.String s)
+   at TrafficManager.State.SerializableDataExtension.LoadDataState(Boolean ByRef error)
+   at TrafficManager.State.SerializableDataExtension.DeserializeData(System.Byte[] data)
+   at TrafficManager.State.SerializableDataExtension.OnLoadData()
+   at SerializableDataWrapper.OnLoadData()
+   at SimulationManager.LateUpdateData(UpdateMode mode, Single minProgress, Single maxProgress)
+   at SimulationManager.Managers_LateUpdateData(UpdateMode mode, Single minProgress, Single maxProgress)
+   at LoadingManager+<LoadSimulationData>c__IteratorB.MoveNext()
+   at AsyncTask.Execute()
+   at SimulationManager.SimulationStep()
+   at SimulationManager.SimulationThread()
+
+Info 173.6902022: OnLoadData completed successfully.
+Info 173.6903445: OnAfterLoadData: ExtNodeManager
+Info 173.6904992: OnAfterLoadData: ExtSegmentManager
+Info 173.6906350: OnAfterLoadData: ExtSegmentEndManager
+Info 173.6907681: OnAfterLoadData: GeometryManager
+Info 173.6909117: OnAfterLoadData: AdvancedParkingManager
+Info 173.6910569: OnAfterLoadData: CustomSegmentLightsManager
+Info 173.6911935: OnAfterLoadData: ExtBuildingManager
+Info 173.6913268: OnAfterLoadData: ExtCitizenInstanceManager
+Info 173.6914625: OnAfterLoadData: ExtCitizenManager
+Info 173.6915948: OnAfterLoadData: ExtPathManager
+Info 173.6917283: OnAfterLoadData: TurnOnRedManager
+Info 173.6918655: OnAfterLoadData: LaneArrowManager
+Info 173.7006399: OnAfterLoadData: LaneConnectionManager
+Info 173.7008413: OnAfterLoadData: OptionsManager
+Info 173.7009931: OnAfterLoadData: ParkingRestrictionsManager
+Info 173.7011783: OnAfterLoadData: RoutingManager
+Info 173.8095082: OnAfterLoadData: SpeedLimitManager
+Info 173.8097230: OnAfterLoadData: TrafficLightManager
+Info 173.8098701: OnAfterLoadData: TrafficLightSimulationManager
+Info 173.8100147: OnAfterLoadData: TrafficMeasurementManager
+Info 173.8101569: OnAfterLoadData: TrafficPriorityManager
+Info 173.8102941: OnAfterLoadData: UtilityManager
+Info 173.8104248: OnAfterLoadData: VehicleRestrictionsManager
+Info 173.8105749: OnAfterLoadData: ExtVehicleManager
+Info 173.8134803: OnAfterLoadData: JunctionRestrictionsManager
+Info 178.6144984: OnLevelLoaded(NewGame) called. updateMode=NewGameFromMap
+Info 178.6147688: Detected game version v1.13.1-f1
+Info 178.6149021: Pathfinder Compatible. Setting up CustomPathManager and SimManager.
+Info 178.6176051: Pathfinder logic: Using CustomPathFind_Current
+Info 178.6194229: Pathfinder logic: Using CustomPathFind_Current
+Info 178.6210703: Pathfinder logic: Using CustomPathFind_Current
+Info 178.6226050: Pathfinder logic: Using CustomPathFind_Current
+Info 178.6248380: Adding Controls to UI.
+Info 178.6291161: Init detours
+Info 178.6292670: Deploying Harmony patches
+Info 178.6295154: Performing Harmony attribute-driven patching
+Error 178.6331044: Could not deploy Harmony patches
+   at CSUtil.Commons.Log.LogToFile(System.String log, LogLevel level)
+   at CSUtil.Commons.Log.Error(System.String s)
+   at TrafficManager.LoadingExtension.InitDetours()
+   at TrafficManager.LoadingExtension.OnLevelLoaded(LoadMode mode)
+   at LoadingWrapper.OnLevelLoaded(UpdateMode mode)
+   at LoadingManager+<LoadLevelComplete>c__Iterator9.MoveNext()
+   at LoadingManager.Update()
+
+Info 178.6336363: System.Exception: Exception from HarmonyInstance "de.viathinksoft.tmpe" patching VehicleManager.CreateVehicle(System.UInt16&, ColossalFramework.Math.Randomizer&, VehicleInfo, UnityEngine.Vector3, TransferReason, System.Boolean, System.Boolean) ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Harmony.MethodPatcher.EmitCallParameter (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Reflection.MethodInfo patch, System.Collections.Generic.Dictionary`2 variables, Boolean allowFirsParamPassthrough) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher+<>c__DisplayClass20_0.<AddPostfixes>b__1 (System.Reflection.MethodInfo fix) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[MethodInfo] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.AddPostfixes (System.Reflection.Emit.ILGenerator il, System.Reflection.MethodBase original, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.Dictionary`2 variables, Boolean passthroughPatches) [0x00000] in <filename unknown>:0 
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  --- End of inner exception stack trace ---
+  at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.<PatchAll>b__9_0 (System.Type type) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[Type] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.PatchAll (System.Reflection.Assembly assembly) [0x00000] in <filename unknown>:0 
+  at TrafficManager.LoadingExtension.InitDetours () [0x00000] in <filename unknown>:0 
+Info 178.6338221:   at Harmony.MethodPatcher.CreatePatchedMethod (System.Reflection.MethodBase original, System.String harmonyInstanceID, System.Collections.Generic.List`1 prefixes, System.Collections.Generic.List`1 postfixes, System.Collections.Generic.List`1 transpilers) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, Harmony.PatchInfo patchInfo, System.String instanceID) [0x00000] in <filename unknown>:0 
+  at Harmony.PatchProcessor.Patch () [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.<PatchAll>b__9_0 (System.Type type) [0x00000] in <filename unknown>:0 
+  at Harmony.CollectionExtensions.Do[Type] (IEnumerable`1 sequence, System.Action`1 action) [0x00000] in <filename unknown>:0 
+  at Harmony.HarmonyInstance.PatchAll (System.Reflection.Assembly assembly) [0x00000] in <filename unknown>:0 
+  at TrafficManager.LoadingExtension.InitDetours () [0x00000] in <filename unknown>:0 
+Info 178.6339585: Deploying attribute-driven detours
+Info 178.6359372: Found 24 types for redirection.
+Info 178.6360796: Processing redirectes in type TrafficManager.Custom.PathFinding.CustomPathFind.
+Info 178.6396759: Redirecting PathFind.CalculatePath with 2 parameters -> TrafficManager.Custom.PathFinding.CustomPathFind.CalculatePath
+Info 178.6425041: Processing redirectes in type TrafficManager.Custom.PathFinding.CustomPathManager.
+Info 178.6431264: Redirecting PathManager.ReleasePath with 1 parameters -> TrafficManager.Custom.PathFinding.CustomPathManager.ReleasePath
+Info 178.6440529: Processing redirectes in type TrafficManager.Custom.Data.CustomVehicle.
+Info 178.6442853: Redirecting Vehicle.CustomSpawn with 2 parameters -> TrafficManager.Custom.Data.CustomVehicle.CustomSpawn
+Info 178.6450473: Redirecting Vehicle.CustomUnspawn with 2 parameters -> TrafficManager.Custom.Data.CustomVehicle.CustomUnspawn
+Info 178.6455377: Processing redirectes in type TrafficManager.Custom.AI.CustomBuildingAI.
+Info 178.6461401: Redirecting BuildingAI.CustomGetColor with 3 parameters -> TrafficManager.Custom.AI.CustomBuildingAI.CustomGetColor
+Info 178.6475263: Processing redirectes in type TrafficManager.Custom.AI.CustomBusAI.
+Info 178.6479543: Redirecting BusAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomBusAI.CustomStartPathFind
+Info 178.6490813: Processing redirectes in type TrafficManager.Custom.AI.CustomAmbulanceAI.
+Info 178.6495104: Redirecting AmbulanceAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomAmbulanceAI.CustomStartPathFind
+Info 178.6510856: Processing redirectes in type TrafficManager.Custom.AI.CustomCitizenAI.
+Info 178.6517435: Redirecting CitizenAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomCitizenAI.CustomStartPathFind
+Info 178.6528514: Processing redirectes in type TrafficManager.Custom.AI.CustomFireTruckAI.
+Info 178.6534288: Redirecting FireTruckAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomFireTruckAI.CustomStartPathFind
+Info 178.6552586: Processing redirectes in type TrafficManager.Custom.AI.CustomPoliceCarAI.
+Info 178.6560129: Redirecting PoliceCarAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomPoliceCarAI.CustomStartPathFind
+Info 178.6578246: Processing redirectes in type TrafficManager.Custom.AI.CustomPostVanAI.
+Info 178.6586047: Redirecting PostVanAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomPostVanAI.CustomStartPathFind
+Info 178.6608216: Processing redirectes in type TrafficManager.Custom.AI.CustomResidentAI.
+Info 178.6614990: Redirecting ResidentAI.CustomGetLocalizedStatus with 3 parameters -> TrafficManager.Custom.AI.CustomResidentAI.CustomGetLocalizedStatus
+Info 178.6625577: Redirecting ResidentAI.CustomGetVehicleInfo with 4 parameters -> TrafficManager.Custom.AI.CustomResidentAI.CustomGetVehicleInfo
+Info 178.6637852: Reverse-redirecting TrafficManager.Custom.AI.CustomResidentAI.GetTaxiProbability -> ResidentAI.GetTaxiProbability
+Info 178.6640548: Reverse-redirecting TrafficManager.Custom.AI.CustomResidentAI.GetBikeProbability -> ResidentAI.GetBikeProbability
+Info 178.6642878: Reverse-redirecting TrafficManager.Custom.AI.CustomResidentAI.GetCarProbability -> ResidentAI.GetCarProbability
+Info 178.6645230: Reverse-redirecting TrafficManager.Custom.AI.CustomResidentAI.GetElectricCarProbability -> ResidentAI.GetElectricCarProbability
+Info 178.6652193: Processing redirectes in type TrafficManager.Custom.AI.CustomShipAI.
+Info 178.6660631: Redirecting ShipAI.CustomStartPathFind with 6 parameters -> TrafficManager.Custom.AI.CustomShipAI.CustomStartPathFind
+Info 178.6675997: Processing redirectes in type TrafficManager.Custom.AI.CustomTaxiAI.
+Info 178.6681602: Redirecting TaxiAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomTaxiAI.CustomStartPathFind
+Info 178.6696145: Processing redirectes in type TrafficManager.Custom.AI.CustomTouristAI.
+Info 178.6700793: Redirecting TouristAI.CustomGetLocalizedStatus with 3 parameters -> TrafficManager.Custom.AI.CustomTouristAI.CustomGetLocalizedStatus
+Info 178.6706790: Redirecting TouristAI.CustomGetVehicleInfo with 4 parameters -> TrafficManager.Custom.AI.CustomTouristAI.CustomGetVehicleInfo
+Info 178.6715472: Reverse-redirecting TrafficManager.Custom.AI.CustomTouristAI.GetTaxiProbability -> TouristAI.GetTaxiProbability
+Info 178.6717398: Reverse-redirecting TrafficManager.Custom.AI.CustomTouristAI.GetBikeProbability -> TouristAI.GetBikeProbability
+Info 178.6721105: Reverse-redirecting TrafficManager.Custom.AI.CustomTouristAI.GetCarProbability -> TouristAI.GetCarProbability
+Info 178.6722969: Reverse-redirecting TrafficManager.Custom.AI.CustomTouristAI.GetElectricCarProbability -> TouristAI.GetElectricCarProbability
+Info 178.6724770: Reverse-redirecting TrafficManager.Custom.AI.CustomTouristAI.GetCamperProbability -> TouristAI.GetCamperProbability
+Info 178.6729693: Processing redirectes in type TrafficManager.Custom.AI.CustomTransportLineAI.
+Info 178.6735138: Redirecting TransportLineAI.CustomStartPathFind with 6 parameters -> TrafficManager.Custom.AI.CustomTransportLineAI.CustomStartPathFind
+Info 178.6749886: Reverse-redirecting TrafficManager.Custom.AI.CustomTransportLineAI.GetStopLane -> TransportLineAI.GetStopLane
+Info 178.6752399: Reverse-redirecting TrafficManager.Custom.AI.CustomTransportLineAI.CheckSegmentProblems -> TransportLineAI.CheckSegmentProblems
+Info 178.6754974: Reverse-redirecting TrafficManager.Custom.AI.CustomTransportLineAI.CheckNodeProblems -> TransportLineAI.CheckNodeProblems
+Info 178.6762110: Processing redirectes in type TrafficManager.Custom.AI.CustomTramBaseAI.
+Info 178.6766601: Redirecting TramBaseAI.CustomSimulationStep with 3 parameters -> TrafficManager.Custom.AI.CustomTramBaseAI.CustomSimulationStep
+Info 178.6774015: Redirecting TramBaseAI.CustomStartPathFind with 6 parameters -> TrafficManager.Custom.AI.CustomTramBaseAI.CustomStartPathFind
+Info 178.6779609: Redirecting TramBaseAI.CustomCalculateSegmentPosition with 13 parameters -> TrafficManager.Custom.AI.CustomTramBaseAI.CustomCalculateSegmentPosition
+Info 178.6790240: Redirecting TramBaseAI.CustomCalculateSegmentPosition with 8 parameters -> TrafficManager.Custom.AI.CustomTramBaseAI.CustomCalculateSegmentPosition
+Info 178.6794242: Redirecting TramBaseAI.CustomSimulationStep with 6 parameters -> TrafficManager.Custom.AI.CustomTramBaseAI.CustomSimulationStep
+Info 178.6842409: Reverse-redirecting TrafficManager.Custom.AI.CustomTramBaseAI.UpdatePathTargetPositions -> TramBaseAI.UpdatePathTargetPositions
+Info 178.6853819: Reverse-redirecting TrafficManager.Custom.AI.CustomTramBaseAI.GetMaxSpeed -> TramBaseAI.GetMaxSpeed
+Info 178.6856627: Reverse-redirecting TrafficManager.Custom.AI.CustomTramBaseAI.CalculateMaxSpeed -> TramBaseAI.CalculateMaxSpeed
+Info 178.6858849: Reverse-redirecting TrafficManager.Custom.AI.CustomTramBaseAI.InitializePath -> TramBaseAI.InitializePath
+Info 178.6867244: Processing redirectes in type TrafficManager.Custom.AI.CustomTrolleybusAI.
+Info 178.6874363: Redirecting TrolleybusAI.CustomCalculateSegmentPosition with 13 parameters -> TrafficManager.Custom.AI.CustomTrolleybusAI.CustomCalculateSegmentPosition
+Info 178.6879847: Redirecting TrolleybusAI.CustomStartPathFind with 6 parameters -> TrafficManager.Custom.AI.CustomTrolleybusAI.CustomStartPathFind
+Info 178.6891921: Processing redirectes in type TrafficManager.Custom.AI.CustomVehicleAI.
+Info 178.6896326: Redirecting VehicleAI.CustomCalculateSegmentPosition with 13 parameters -> TrafficManager.Custom.AI.CustomVehicleAI.CustomCalculateSegmentPosition
+Info 178.6899578: Redirecting VehicleAI.CustomCalculateSegmentPosition with 8 parameters -> TrafficManager.Custom.AI.CustomVehicleAI.CustomCalculateSegmentPosition
+Info 178.6902844: Redirecting VehicleAI.CustomUpdatePathTargetPositions with 7 parameters -> TrafficManager.Custom.AI.CustomVehicleAI.CustomUpdatePathTargetPositions
+Info 178.6926552: Reverse-redirecting TrafficManager.Custom.AI.CustomVehicleAI.FindBestLane -> VehicleAI.FindBestLane
+Info 178.6933092: Processing redirectes in type TrafficManager.Custom.AI.CustomCarAI.
+Info 178.6937957: Redirecting CarAI.CustomSimulationStep with 3 parameters -> TrafficManager.Custom.AI.CustomCarAI.CustomSimulationStep
+Info 178.6943994: Redirecting CarAI.CustomTrySpawn with 2 parameters -> TrafficManager.Custom.AI.CustomCarAI.CustomTrySpawn
+Info 178.6946490: Redirecting CarAI.CustomCalculateSegmentPosition with 13 parameters -> TrafficManager.Custom.AI.CustomCarAI.CustomCalculateSegmentPosition
+Info 178.6951983: Redirecting CarAI.CustomCalculateSegmentPosition with 8 parameters -> TrafficManager.Custom.AI.CustomCarAI.CustomCalculateSegmentPosition
+Info 178.6955496: Redirecting CarAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomCarAI.CustomStartPathFind
+Info 178.6961398: Redirecting CarAI.CustomCheckOtherVehicle with 12 parameters -> TrafficManager.Custom.AI.CustomCarAI.CustomCheckOtherVehicle
+Info 178.6975900: Reverse-redirecting TrafficManager.Custom.AI.CustomCarAI.CheckOverlap -> CarAI.CheckOverlap
+Info 178.6977824: Reverse-redirecting TrafficManager.Custom.AI.CustomCarAI.CheckCitizen -> CarAI.CheckCitizen
+Info 178.6981740: Reverse-redirecting TrafficManager.Custom.AI.CustomCarAI.CalculateMaxSpeed -> CarAI.CalculateMaxSpeed
+Info 178.6988344: Processing redirectes in type TrafficManager.Custom.AI.CustomCargoTruckAI.
+Info 178.6995302: Redirecting CargoTruckAI.CustomSimulationStep with 3 parameters -> TrafficManager.Custom.AI.CustomCargoTruckAI.CustomSimulationStep
+Info 178.6998189: Redirecting CargoTruckAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomCargoTruckAI.CustomStartPathFind
+Info 178.7007641: Reverse-redirecting TrafficManager.Custom.AI.CustomCargoTruckAI.RemoveOffers -> CargoTruckAI.RemoveOffers
+Info 178.7012833: Processing redirectes in type TrafficManager.Custom.AI.CustomHumanAI.
+Info 178.7018050: Redirecting HumanAI.CustomSimulationStep with 3 parameters -> TrafficManager.Custom.AI.CustomHumanAI.CustomSimulationStep
+Info 178.7024658: Redirecting HumanAI.CustomCheckTrafficLights with 2 parameters -> TrafficManager.Custom.AI.CustomHumanAI.CustomCheckTrafficLights
+Info 178.7032858: Reverse-redirecting TrafficManager.Custom.AI.CustomHumanAI.PathfindFailure -> HumanAI.PathfindFailure
+Info 178.7034673: Reverse-redirecting TrafficManager.Custom.AI.CustomHumanAI.PathfindSuccess -> HumanAI.PathfindSuccess
+Info 178.7036420: Reverse-redirecting TrafficManager.Custom.AI.CustomHumanAI.Spawn -> HumanAI.Spawn
+Info 178.7038152: Reverse-redirecting TrafficManager.Custom.AI.CustomHumanAI.GetBuildingTargetPosition -> HumanAI.GetBuildingTargetPosition
+Info 178.7044037: Reverse-redirecting TrafficManager.Custom.AI.CustomHumanAI.WaitTouristVehicle -> HumanAI.WaitTouristVehicle
+Info 178.7046570: Reverse-redirecting TrafficManager.Custom.AI.CustomHumanAI.ArriveAtDestination -> HumanAI.ArriveAtDestination
+Info 178.7051012: Processing redirectes in type TrafficManager.Custom.AI.CustomPassengerCarAI.
+Info 178.7056787: Redirecting PassengerCarAI.CustomSimulationStep with 3 parameters -> TrafficManager.Custom.AI.CustomPassengerCarAI.CustomSimulationStep
+Info 178.7059096: Redirecting PassengerCarAI.CustomGetLocalizedStatus with 3 parameters -> TrafficManager.Custom.AI.CustomPassengerCarAI.CustomGetLocalizedStatus
+Info 178.7064039: Redirecting PassengerCarAI.CustomStartPathFind with 7 parameters -> TrafficManager.Custom.AI.CustomPassengerCarAI.CustomStartPathFind
+Info 178.7069235: Redirecting PassengerCarAI.CustomUpdateParkedVehicle with 2 parameters -> TrafficManager.Custom.AI.CustomPassengerCarAI.CustomUpdateParkedVehicle
+Info 178.7073448: Redirecting PassengerCarAI.CustomParkVehicle with 6 parameters -> TrafficManager.Custom.AI.CustomPassengerCarAI.CustomParkVehicle
+Info 178.7085134: Reverse-redirecting TrafficManager.Custom.AI.CustomPassengerCarAI.GetDriverInstance -> PassengerCarAI.GetDriverInstance
+Info 178.7087844: Reverse-redirecting TrafficManager.Custom.AI.CustomPassengerCarAI.FindParkingSpaceRoadSide -> PassengerCarAI.FindParkingSpaceRoadSide
+Info 178.7093073: Reverse-redirecting TrafficManager.Custom.AI.CustomPassengerCarAI.FindParkingSpace -> PassengerCarAI.FindParkingSpace
+Info 178.7096285: Reverse-redirecting TrafficManager.Custom.AI.CustomPassengerCarAI.FindParkingSpaceProp -> PassengerCarAI.FindParkingSpaceProp
+Info 178.7102827: Reverse-redirecting TrafficManager.Custom.AI.CustomPassengerCarAI.CheckOverlap -> PassengerCarAI.CheckOverlap
+Info 178.7110519: Processing redirectes in type TrafficManager.Custom.AI.CustomRoadBaseAI.
+Info 178.7116065: Redirecting RoadBaseAI.CustomClickNodeButton with 3 parameters -> TrafficManager.Custom.AI.CustomRoadBaseAI.CustomClickNodeButton
+Info 178.7129806: Processing redirectes in type TrafficManager.Custom.AI.CustomTrainAI.
+Info 178.7134762: Redirecting TrainAI.CustomSimulationStep with 3 parameters -> TrafficManager.Custom.AI.CustomTrainAI.CustomSimulationStep
+Info 178.7143351: Redirecting TrainAI.CustomSimulationStep with 6 parameters -> TrafficManager.Custom.AI.CustomTrainAI.CustomSimulationStep
+Info 178.7186630: Redirecting TrainAI.CustomCalculateSegmentPosition with 8 parameters -> TrafficManager.Custom.AI.CustomTrainAI.CustomCalculateSegmentPosition
+Info 178.7191042: Redirecting TrainAI.CustomStartPathFind with 6 parameters -> TrafficManager.Custom.AI.CustomTrainAI.CustomStartPathFind
+Info 178.7199327: Redirecting TrainAI.CustomCheckNextLane with 10 parameters -> TrafficManager.Custom.AI.CustomTrainAI.CustomCheckNextLane
+Info 178.7213778: Redirecting TrainAI.CustomForceTrafficLights with 3 parameters -> TrafficManager.Custom.AI.CustomTrainAI.CustomForceTrafficLights
+Info 178.7224930: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.CheckOverlap -> TrainAI.CheckOverlap
+Info 178.7228626: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.CheckOverlap -> TrainAI.CheckOverlap
+Info 178.7233351: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.InitializePath -> TrainAI.InitializePath
+Info 178.7236284: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.UpdatePathTargetPositions -> TrainAI.UpdatePathTargetPositions
+Info 178.7248242: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.Reverse -> TrainAI.Reverse
+Info 178.7251111: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.GetMaxSpeed -> TrainAI.GetMaxSpeed
+Info 178.7254154: Reverse-redirecting TrafficManager.Custom.AI.CustomTrainAI.CalculateMaxSpeed -> TrainAI.CalculateMaxSpeed
+Info 178.7259952: Detours failed
+Info 178.7266990: Notifying managers...
+Info 178.7268413: OnLevelLoading: ExtNodeManager
+Info 178.7270149: OnLevelLoading: ExtSegmentManager
+Info 178.7271515: OnLevelLoading: ExtSegmentEndManager
+Info 178.7272807: OnLevelLoading: GeometryManager
+Info 178.7274144: OnLevelLoading: AdvancedParkingManager
+Info 178.7275522: OnLevelLoading: CustomSegmentLightsManager
+Info 178.7280427: OnLevelLoading: ExtBuildingManager
+Info 178.7281803: OnLevelLoading: ExtCitizenInstanceManager
+Info 178.7283381: OnLevelLoading: ExtCitizenManager
+Info 178.7284690: OnLevelLoading: ExtPathManager
+Info 178.7286004: OnLevelLoading: TurnOnRedManager
+Info 178.7287281: OnLevelLoading: LaneArrowManager
+Info 178.7288566: OnLevelLoading: LaneConnectionManager
+Info 178.7289919: OnLevelLoading: OptionsManager
+Info 178.7291262: OnLevelLoading: ParkingRestrictionsManager
+Info 178.7292593: OnLevelLoading: RoutingManager
+Info 178.7293940: OnLevelLoading: SpeedLimitManager
+Info 178.7295235: OnLevelLoading: TrafficLightManager
+Info 178.7296549: OnLevelLoading: TrafficLightSimulationManager
+Info 178.7297871: OnLevelLoading: TrafficMeasurementManager
+Info 178.7299215: OnLevelLoading: TrafficPriorityManager
+Info 178.7300769: OnLevelLoading: UtilityManager
+Info 178.7302062: OnLevelLoading: VehicleRestrictionsManager
+Info 178.7303961: OnLevelLoading: ExtVehicleManager
+Info 178.7305371: OnLevelLoading: JunctionRestrictionsManager
+Info 178.7402960: OnLevelLoaded complete.
+Info 179.7270551: Setting main menu button position to [464,10]
+Info 179.7353071: Setting main menu position to [85,60]
+Info 495.5983670: OnLevelUnloading
+Info 495.5989328: OnLevelUnloading: JunctionRestrictionsManager
+Info 495.6011541: OnLevelUnloading: ExtVehicleManager
+Info 495.6020575: OnLevelUnloading: VehicleRestrictionsManager
+Info 495.6022597: OnLevelUnloading: UtilityManager
+Info 495.6024128: OnLevelUnloading: TrafficPriorityManager
+Info 495.6212647: OnLevelUnloading: TrafficMeasurementManager
+Info 495.6220444: OnLevelUnloading: TrafficLightSimulationManager
+Info 495.6226881: OnLevelUnloading: TrafficLightManager
+Info 495.6228363: OnLevelUnloading: SpeedLimitManager
+Info 495.6229764: OnLevelUnloading: RoutingManager
+Info 495.6231146: OnLevelUnloading: ParkingRestrictionsManager
+Info 495.6232512: OnLevelUnloading: OptionsManager
+Info 495.6233827: OnLevelUnloading: LaneConnectionManager
+Info 495.6235147: OnLevelUnloading: LaneArrowManager
+Info 495.6236534: OnLevelUnloading: TurnOnRedManager
+Info 495.6239411: OnLevelUnloading: ExtPathManager
+Info 495.6240792: OnLevelUnloading: ExtCitizenManager
+Info 495.9170924: OnLevelUnloading: ExtCitizenInstanceManager
+Info 495.9180879: OnLevelUnloading: ExtBuildingManager
+Info 495.9185395: OnLevelUnloading: CustomSegmentLightsManager
+Info 495.9187477: OnLevelUnloading: AdvancedParkingManager
+Info 495.9189030: OnLevelUnloading: GeometryManager
+Info 495.9190434: OnLevelUnloading: ExtSegmentEndManager
+Info 495.9211901: OnLevelUnloading: ExtSegmentManager
+Info 495.9218047: OnLevelUnloading: ExtNodeManager
+Info 495.9274751: Removing Controls from UI.
+Info 495.9284261: Reverting manual detours
+Info 495.9286287: Reverting attribute-driven detours
+Info 495.9293987: Reverting Harmony detours
+Info 495.9302447: Reverting detours finished.
+Warning 501.0264893: ModUI.DisableTool: tool is null!
+   at CSUtil.Commons.Log.LogToFile(System.String log, LogLevel level)
+   at CSUtil.Commons.Log.Warning(System.String s)
+   at TrafficManager.UI.ModUI.DisableTool()
+   at TrafficManager.UI.ModUI.DestroyTool()
+   at TrafficManager.UI.ModUI.ReleaseTool()
+   at TrafficManager.UI.ModUI.Finalize()
+
+Info 511.1633865: TM:PE disabled.
